@@ -1,4 +1,4 @@
 #!/bin/sh
 
 cd src
-java org.larma.Hallo
+java -cp .:../lib/* org.larma.Hallo

@@ -24,3 +24,13 @@ Lagt på tre byggeskript:
 * clean - rydder opp
 
 Neste oppgave er å bruke SLF4J til å logge
+
+## 3. SLF4J ##
+
+Nytt skript for å hente ned avhengighet slf4j-api: cplibs
+
+Oppdatert Hallo.java til å instansiere Logger via LoggerFactory og logge en melding ved oppstart.
+
+Oppdatert byggeskript c og r til å inkludere lib-katalogen i CLASSPATH
+
+Neste oppgave er å introdusere en implementasjon 
