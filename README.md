@@ -43,3 +43,13 @@ Oppdatert cplibs med to nye avhengigheter:
 * logback-classic - lim mellom slf4j og logback-core
 
 Neste oppgave er å logge til fil
+
+## 5. Log til fil ##
+
+Opprettet logback.xml i /res
+
+Oppdatert r til å includere res i CLASSPATH
+
+.gitignore oppdatert for å ignorere logs/
+
+Neste oppgave er å logge error til egen fil
