@@ -34,3 +34,12 @@ Oppdatert Hallo.java til å instansiere Logger via LoggerFactory og logge en mel
 Oppdatert byggeskript c og r til å inkludere lib-katalogen i CLASSPATH
 
 Neste oppgave er å introdusere en implementasjon 
+
+## 4. Logback ##
+
+Oppdatert cplibs med to nye avhengigheter:
+
+* logback-core - implementasjon av logging
+* logback-classic - lim mellom slf4j og logback-core
+
+Neste oppgave er å logge til fil
