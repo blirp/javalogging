@@ -10,6 +10,9 @@ public class Hallo {
     {
         log.info("Starter opp");
         System.out.println("Hallo, hallo, Verden!");
+
+        log.error("Noe gikk galt!");
+        
         log.info("Avslutter");
     }
 }

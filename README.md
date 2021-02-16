@@ -53,3 +53,11 @@ Oppdatert r til å includere res i CLASSPATH
 .gitignore oppdatert for å ignorere logs/
 
 Neste oppgave er å logge error til egen fil
+
+
+## 6. Egen error log ##
+
+Definerer ny appender 'ALVORLIG' i logback.xml.
+Passer på at root-logger refererer til denne
+
+Neste oppgave er å lage egen logfil for egen Hallo-klassen

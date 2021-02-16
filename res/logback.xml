@@ -5,8 +5,18 @@
       <pattern>%d{HH:mm:ss.SSS} [%thread] %-5level %logger{36} - %msg%n</pattern>
     </encoder>
   </appender>
+  <appender name="ALVORLIG" class="ch.qos.logback.core.FileAppender">
+    <file>../logs/error.log</file>
+     <filter class="ch.qos.logback.classic.filter.ThresholdFilter">
+        <level>ERROR</level>
+    </filter>
+    <encoder>
+      <pattern>%d{HH:mm:ss.SSS} [%thread] %-5level %logger{36} - %msg%n</pattern>
+    </encoder>
+  </appender>
 
   <root>
+    <appender-ref ref="ALVORLIG" />
     <appender-ref ref="VANLIG" />
   </root>
 </configuration>
