@@ -12,7 +12,8 @@ public class Hallo {
         System.out.println("Hallo, hallo, Verden!");
 
         log.error("Noe gikk galt!");
-        
+        new Egen().logNoe();
+
         log.info("Avslutter");
     }
 }

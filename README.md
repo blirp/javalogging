@@ -61,3 +61,15 @@ Definerer ny appender 'ALVORLIG' i logback.xml.
 Passer på at root-logger refererer til denne
 
 Neste oppgave er å lage egen logfil for egen Hallo-klassen
+
+
+## 7. Egen klasse, egen fil ##
+
+Definerer opp ny klasse Egen med egen logger
+
+Definerer egen logger i logback.xml for Egen.
+
+egen-logger skriver til hallo.log
+root-logger skriver til error.log
+
+Oppdatert c til å kompilere alle java-filer

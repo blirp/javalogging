@@ -15,8 +15,11 @@
     </encoder>
   </appender>
 
+  <logger name="org.larma.Egen" level="debug" additivity="false">
+    <appender-ref ref="VANLIG" />
+  </logger>
+
   <root>
     <appender-ref ref="ALVORLIG" />
-    <appender-ref ref="VANLIG" />
   </root>
 </configuration>
